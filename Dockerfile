@@ -43,7 +43,7 @@ RUN pnpm install --frozen-lockfile --prod
 
 RUN mkdir -p /app/data/storage
 
-VOLUME ["/app/data/storage"]
+
 
 EXPOSE 3000
 
